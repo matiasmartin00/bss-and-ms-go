@@ -2,6 +2,7 @@ package main
 
 import (
 	"github.com/matiasmartin00/bss-and-ms-go/defers"
+	"github.com/matiasmartin00/bss-and-ms-go/functions"
 	"github.com/matiasmartin00/bss-and-ms-go/pointers"
 	"github.com/matiasmartin00/bss-and-ms-go/slices"
 )
@@ -15,4 +16,7 @@ func main() {
 
 	// defers 1.6.5
 	defers.Execute()
+
+	// functions 1.7.1
+	functions.Execute()
 }

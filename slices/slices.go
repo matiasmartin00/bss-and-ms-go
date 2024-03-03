@@ -3,7 +3,9 @@ package slices
 import "fmt"
 
 func Execute() {
+	fmt.Println("Start Example ----> 1.5.6")
 	example()
+	fmt.Println("End Example ----> 1.5.6")
 }
 
 func example() {

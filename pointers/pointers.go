@@ -3,7 +3,9 @@ package pointers
 import "fmt"
 
 func Execute() {
+	fmt.Println("Start Example ----> 1.5.3")
 	example()
+	fmt.Println("End Example ----> 1.5.3")
 }
 
 /*
